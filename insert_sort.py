@@ -17,7 +17,7 @@ def insert_sort(alist):
 				alist[i],alist[i - 1] = alist[i - 1],alist[i]
 				i -= 1
 			else:
-				break;
+				break
 
 li = [-2,-3,54,26,93,17,77,31,44,55,20]
 
